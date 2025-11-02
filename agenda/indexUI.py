@@ -3,7 +3,7 @@ import streamlit as st
 from templates.manterClienteUI import ManterClienteUI
 from templates.manterServicoUI import ManterServicoUI
 from templates.manterProfissionalUI import ManterProfissionalUI
-from templates.manterHorarioUI import ManterHorarioUI
+from templates.ManterHorarioUInterHorarioUI import ManterHorarioUI
 from templates.LoginUI import LoginUI
 from templates.PerfilUI import PerfilUI
 
