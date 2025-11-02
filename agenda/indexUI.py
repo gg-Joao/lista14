@@ -1,11 +1,17 @@
+import sys
+import os
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
 
 import streamlit as st
-from templates.manterClienteUI import ManterClienteUI
-from templates.manterServicoUI import ManterServicoUI
-from templates.manterProfissionalUI import ManterProfissionalUI
-from templates.ManterHorarioUInterHorarioUI import ManterHorarioUI
+from templates.ManterClienteUI import ManterClienteUI
+from templates.ManterServicoUI import ManterServicoUI
+from templates.ManterProfissionalUI import ManterProfissionalUI
+from templates.ManterHorarioUI import ManterHorarioUI
 from templates.LoginUI import LoginUI
 from templates.PerfilUI import PerfilUI
+
 
 class IndexUI:
 

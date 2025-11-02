@@ -1,5 +1,5 @@
 import streamlit as st
-from agenda import View
+from agenda.views import View
 
 class LoginUI:
     @staticmethod
